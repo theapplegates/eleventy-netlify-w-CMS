@@ -1,6 +1,14 @@
 [build]
   publish = "_site"
   command = "eleventy"
+  
+  [[plugins]]
+package = netlify-plugin-search-index
+[plugins.inputs] = 
+  generatedFunctionName = null
+  publishDirJSONFileName = /tools/algolia.json # you can use / to nest in a directory
+
+
 
 # REDIRECT and HEADERS examples
 

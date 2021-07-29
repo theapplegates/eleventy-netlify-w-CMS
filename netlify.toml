@@ -3,10 +3,10 @@
   command = "eleventy"
   
   [[plugins]]
-package = netlify-plugin-search-index
+package = "netlify-plugin-search-index"
 [plugins.inputs] = 
-  generatedFunctionName = null
-  publishDirJSONFileName = /tools/algolia.json # you can use / to nest in a directory
+  generatedFunctionName = "null"
+  publishDirJSONFileName = "/tools/algolia.json" # you can use / to nest in a directory
 
 
 

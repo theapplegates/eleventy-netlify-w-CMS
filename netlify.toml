@@ -4,7 +4,7 @@
   
   [[plugins]]
 package = "netlify-plugin-search-index"
-[plugins.inputs] = 
+[plugins.inputs]
   generatedFunctionName = "null"
   publishDirJSONFileName = "/tools/algolia.json" # you can use / to nest in a directory
 
